@@ -10,7 +10,7 @@ h1{
  color: deeppink;
  font-size: 40px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 20px;
 }
