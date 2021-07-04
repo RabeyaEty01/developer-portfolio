@@ -6,9 +6,16 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-family: 10px;
+}
 .name-color{
  color: deeppink;
  font-size: 40px;
+}
+.ex-color{
+    color: deeppink;
+
 }
 .flexible-container{
     display: flex;
@@ -100,4 +107,30 @@ span{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.box-container{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#junior-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#stack-web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+ footer p{
+    text-align: center;
 }
