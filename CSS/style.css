@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 20px;
 }
 .half-width{
     width: 50%;
@@ -32,6 +33,16 @@ transition: 3s;
 font-weight: 700;
 
 
+}
+.download-btn{
+
+    text-decoration: none;
+    background-image: linear-gradient(black, rgb(255, 0, 149));
+    border-radius: 30px;
+    padding: 10px 45px;
+    color: ghostwhite;
+    transition: 3s;
+    font-weight: 700;
 }
 nav{
     display: flex;
@@ -84,4 +95,9 @@ span{
 .active{
     font-weight:bold ;
     color: #2d2a2a;
+}
+.dream-big{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
