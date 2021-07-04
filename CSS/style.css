@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-color{
+ color: deeppink;
+ font-size: 40px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+ width: 100%;
+ height: 460px;
+ border-radius:20%;
+}
+.hire-btn{
+text-decoration: none;
+background-image: linear-gradient(black, rgb(255, 0, 149));
+border-radius: 30px;
+padding: 10px 40px;
+color: ghostwhite;
+transition: 3s;
+font-weight: 700;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0px;
+    align-items: center;
+    height:60px ;
+    background-color:#FFFFFF ;
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #505050;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    
+
+}
+
+.logo{
+    font-family:sans-serif;
+    color: #131218;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+span{
+    font-family:sans-serif;
+    color: rgb(212, 14, 113);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.active{
+    font-weight:bold ;
+    color: #2d2a2a;
+}
